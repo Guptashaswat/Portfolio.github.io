@@ -1,0 +1,123 @@
+.banner-area{
+background-image: url(images/11.jpg);
+height: 100vh;
+background-position: center;
+background-size: cover;
+width:100%;
+--webkit--background--size:cover;
+}
+
+.body{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    float: right;
+    text-align: center;
+    width: 100%;
+    list-style: none;
+    background-color: black;
+
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    font-size: 13px;
+    margin-top: -10px;
+}
+.navbar li a{
+    text-decoration: none;
+    text-align: center;
+    padding: 1px 4px;
+    width: 100%;
+    position:relative;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    right: 30%;
+    
+    
+}
+.navbar li a:hover{
+    color: aqua;
+    background-color: orangered;
+    transition: .4s;
+}
+.search{
+    margin-left: 75%;
+}
+.search {
+    border: 11px;
+    border-radius: 20px solid orange;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.banner-text h2{
+text-align: center;
+font-size:55px;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+margin: 0;
+margin-top: 60px;
+}
+.banner-text p{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    margin-top: 10%;
+
+}
+.banner-text a{
+    text-decoration: none;
+    padding: 5px 5px;
+    color: black;
+    border: 2px solid black;
+    display: inline-block;
+    margin-top: 10px;
+}
+.banner-text a:hover{
+    color:orangered;
+    background-color: black;
+    transition: .3s;
+}
+.social-links img {
+    height:13px ;
+    margin: 20px;
+    cursor: pointer;
+    margin-bottom: -20%;
+
+}
+.social-links{
+    margin-top: 10px;
+}
+ @media only screen and (max-width:700px){
+    .navbar ul{
+        width: 100%;
+        background:black;
+        position: absolute;
+        margin-top:0;
+        right: 0;
+        z-index: 2;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px; 
+
+    }
+    
+}
